@@ -1,0 +1,19 @@
+{
+  "name": "Desafio_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:electron": "npx cypress run",
+    "cy:run:chrome": "npx cypress run --browser chrome --headless ",
+    "cy:run:edge": "npx cypress run --browser edge --headless "
+    },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.2.0",
+    "faker": "^5.5.3"
+  }
+}
